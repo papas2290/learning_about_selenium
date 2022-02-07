@@ -1,6 +1,7 @@
 import time
 import unittest
 from selenium import webdriver
+import pytest
 
 
 class TestRegistrationOnTheWebsite1(unittest.TestCase):
@@ -61,4 +62,4 @@ class TestRegistrationOnTheWebsite1(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    pytest.main()
