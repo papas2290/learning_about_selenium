@@ -4,18 +4,21 @@ from selenium.webdriver.common.by import By
 
 link = 'http://selenium1py.pythonanywhere.com/'
 
+
 @pytest.fixture
 def browser():
-    print('\nstart browser for test...')
+    print('\nstart browser for test_autouse...')
     browser = webdriver.Chrome()
     yield browser
-    print('\nquit browser...')
+    print('\nquit browser test_autouse...')
     browser.quit()
+
 
 @pytest.fixture(autouse=True)
 def prepare_data():
     print()
     print("preparing some critical data for every test")
+
 
 class TestMainPage1:
     def test_guest_should_see_login_link(self, browser):

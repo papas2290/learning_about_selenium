@@ -1,15 +1,26 @@
-lst = [1, 2, 3, 4, 5, 6]
+import pytest
 
 
-def modify_list(l):
-
-    for el in l:
-        # print(el)
-        if el % 2 == 0:
-           l.append(el//2)
-        else:
-            l.pop(el)
-    return l
+@pytest.fixture(scope="class")
+def prepare_faces():
+    print("^_^", "\n")
+    yield
+    print(":3", "\n")
 
 
-print(modify_list(lst))
+@pytest.fixture()
+def very_important_fixture():
+    print(":)", "\n")
+
+
+@pytest.fixture(autouse=True)
+def print_smiling_faces():
+    print(":-Р", "\n")
+
+
+class TestPrintSmilingFaces():
+    def test_first_smiling_faces(self, prepare_faces, very_important_fixture):
+        print('test1')
+
+    def test_second_smiling_faces(self, prepare_faces):
+        print('test2')
