@@ -10,3 +10,78 @@ DevTools listening on ws://127.0.0.1:52704/devtools/browser/b520362a-3a01-4d24-a
 JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
 1666899134556	Marionette	INFO	Stopped listening on port 52713
 1666902212360	geckodriver	INFO	Listening on 127.0.0.1:53625
+1667052026586	geckodriver	INFO	Listening on 127.0.0.1:50253
+1667052442549	geckodriver	INFO	Listening on 127.0.0.1:50734
+1667052445674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileNOidP4"
+1667052446235	Marionette	INFO	Marionette enabled
+1667052446241	Marionette	INFO	Listening on port 50746
+WebDriver BiDi listening on ws://127.0.0.1:50735
+Read port: 50746
+1667052446578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileNOidP4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50735/devtools/browser/f819169a-205c-45a5-af12-cd94e037c22c
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1667052450563	Marionette	INFO	Stopped listening on port 50746
+1667052489455	geckodriver	INFO	Listening on 127.0.0.1:50798
+1667052492525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofile3zLlq4"
+1667052492982	Marionette	INFO	Marionette enabled
+1667052492989	Marionette	INFO	Listening on port 50808
+WebDriver BiDi listening on ws://127.0.0.1:50799
+Read port: 50808
+1667052493226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofile3zLlq4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50799/devtools/browser/2fb893a6-98c6-4d95-ac9f-3a3e90cda66e
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1666637082, line 6289: unreachable code after return statement
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1666637082, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1667052503645	Marionette	INFO	Stopped listening on port 50808
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1667052592860	geckodriver	INFO	Listening on 127.0.0.1:50931
+1667052595901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50932" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileT8jjge"
+1667052596234	Marionette	INFO	Marionette enabled
+1667052596238	Marionette	INFO	Listening on port 50941
+Read port: 50941
+WebDriver BiDi listening on ws://127.0.0.1:50932
+1667052596356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileT8jjge\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50932/devtools/browser/1360a66f-cdb3-4f83-9566-73e075664796
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1667052599793	Marionette	INFO	Stopped listening on port 50941
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Usr\AppData\Local\Temp\rust_mozprofileT8jjge\protections.sqlite
+1667052616583	geckodriver	INFO	Listening on 127.0.0.1:50992
+1667052619634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileP69tEH"
+1667052620035	Marionette	INFO	Marionette enabled
+1667052620040	Marionette	INFO	Listening on port 51002
+Read port: 51002
+WebDriver BiDi listening on ws://127.0.0.1:50993
+1667052620157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileP69tEH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50993/devtools/browser/b81ce0ed-002d-499e-9cb2-7fad754e728c
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1667052624079	Marionette	INFO	Stopped listening on port 51002
+1667320697660	geckodriver	INFO	Listening on 127.0.0.1:50280
+1667320700760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50281" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileUivFOf"
+1667320701574	Marionette	INFO	Marionette enabled
+1667320701582	Marionette	INFO	Listening on port 50290
+Read port: 50290
+WebDriver BiDi listening on ws://127.0.0.1:50281
+1667320701795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileUivFOf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50281/devtools/browser/d0d99033-722b-4471-a6c1-6fd0c059191d
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1667320707773	Marionette	INFO	Stopped listening on port 50290
+1667320730299	geckodriver	INFO	Listening on 127.0.0.1:50339
+1667320733383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50340" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileqOAMVk"
+1667320733968	Marionette	INFO	Marionette enabled
+1667320733974	Marionette	INFO	Listening on port 50349
+Read port: 50349
+WebDriver BiDi listening on ws://127.0.0.1:50340
+1667320734129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Usr\\AppData\\Local\\Temp\\rust_mozprofileqOAMVk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50340/devtools/browser/df2048d3-c963-4fe9-931a-173575d0c366
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1666637082, line 6289: unreachable code after return statement
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1666637082, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1667320760243	Marionette	INFO	Stopped listening on port 50349
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
